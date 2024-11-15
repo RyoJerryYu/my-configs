@@ -1,8 +1,10 @@
 {
+  "explorer.confirmDelete": false,
   "vim.useSystemClipboard": true,
   "vim.incsearch": true,
   "vim.hlsearch": true,
   "vim.leader": "<space>",
+  "vim.smartRelativeLine": true,
   "vim.visualModeKeyBindingsNonRecursive": [
     {
       "before": ["J"],
