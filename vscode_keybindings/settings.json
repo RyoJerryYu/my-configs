@@ -1,5 +1,9 @@
 {
-    "vim.visualModeKeyBindingsNonRecursive": [
+  "vim.useSystemClipboard": true,
+  "vim.incsearch": true,
+  "vim.hlsearch": true,
+  "vim.leader": "<space>",
+  "vim.visualModeKeyBindingsNonRecursive": [
     {
       "before": ["J"],
       "after": ["1", "0", "j"]
@@ -164,39 +168,16 @@
     "<C-[>": false,
     "<C-]>": false
   },
-    "<C-L>": false,
-    "<C-M-H>": false,
-    "<C-M-L>": false,
-    "<C-M-J>": false,
-    "<C-M-K>": false,
-    "<C-[>": false,
-    "<C-]>": false
-  },
   "vim.statusBarColorControl": true,
-    "vim.statusBarColors.normal": [
-        "#8FBCBB",
-        "#000"
-    ],
-    "vim.statusBarColors.insert": [
-        "#BF616A",
-        "#000"
-    ],
-    "vim.statusBarColors.visual": [
-        "#B48EAD",
-        "#000"
-    ],
-    "vim.statusBarColors.visualline": [
-        "#B48EAD",
-        "#000"
-    ],
-    "vim.statusBarColors.visualblock": [
-        "#A3BE8C",
-        "#000"
-    ],
-    "vim.statusBarColors.replace": "#D08770",
-    "vim.statusBarColors.commandlineinprogress": "#007ACC",
-    "vim.statusBarColors.searchinprogressmode": "#007ACC",
-    "vim.statusBarColors.easymotionmode": "#007ACC",
-    "vim.statusBarColors.easymotioninputmode": "#007ACC",
-    "vim.statusBarColors.surroundinputmode": "#007ACC",
+  "vim.statusBarColors.normal": ["#8FBCBB", "#000"],
+  "vim.statusBarColors.insert": ["#BF616A", "#000"],
+  "vim.statusBarColors.visual": ["#B48EAD", "#000"],
+  "vim.statusBarColors.visualline": ["#B48EAD", "#000"],
+  "vim.statusBarColors.visualblock": ["#A3BE8C", "#000"],
+  "vim.statusBarColors.replace": "#D08770",
+  "vim.statusBarColors.commandlineinprogress": "#007ACC",
+  "vim.statusBarColors.searchinprogressmode": "#007ACC",
+  "vim.statusBarColors.easymotionmode": "#007ACC",
+  "vim.statusBarColors.easymotioninputmode": "#007ACC",
+  "vim.statusBarColors.surroundinputmode": "#007ACC"
 }
