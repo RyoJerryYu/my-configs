@@ -1,0 +1,202 @@
+{
+    "vim.visualModeKeyBindingsNonRecursive": [
+    {
+      "before": ["J"],
+      "after": ["1", "0", "j"]
+    },
+    {
+      "before": ["K"],
+      "after": ["1", "0", "k"]
+    },
+    {
+      "before": ["H"],
+      "after": ["^"]
+    },
+    {
+      "before": ["L"],
+      "after": ["$"]
+    },
+    {
+      "before": ["<C-j>"],
+      "after": ["g", "j"]
+    },
+    {
+      "before": ["<C-k>"],
+      "after": ["g", "k"]
+    },
+    {
+      "before": ["<C-h>"],
+      "after": ["g", "^"]
+    },
+    {
+      "before": ["<C-l>"],
+      "after": ["g", "$"]
+    },
+    {
+      "before": ["<Tab>"],
+      "after": [">", "g", "v"]
+    },
+    {
+      "before": ["<S-Tab>"],
+      "after": ["<", "g", "v"]
+    }
+  ],
+  "vim.normalModeKeyBindingsNonRecursive": [
+    {
+      "before": ["J"],
+      "after": ["1", "0", "j"]
+    },
+    {
+      "before": ["K"],
+      "after": ["1", "0", "k"]
+    },
+    {
+      "before": ["H"],
+      "after": ["^"]
+    },
+    {
+      "before": ["L"],
+      "after": ["$"]
+    },
+    {
+      "before": ["<C-j>"],
+      "after": ["g", "j"]
+    },
+    {
+      "before": ["<C-k>"],
+      "after": ["g", "k"]
+    },
+    {
+      "before": ["<C-h>"],
+      "after": ["g", "^"]
+    },
+    {
+      "before": ["<C-l>"],
+      "after": ["g", "$"]
+    },
+    {
+      "before": ["<Tab>"],
+      "after": [">", ">"]
+    },
+    {
+      "before": ["<S-Tab>"],
+      "after": ["<", "<"]
+    },
+    {
+      "before": ["g", "a"],
+      "commands": ["editor.action.goToImplementation"]
+    },
+    {
+      "before": ["g", "s"],
+      "commands": ["debug.action.toggleDisassemblyViewSourceCode"]
+    },
+    {
+      "before": ["<leader>", "d"],
+      "commands": ["go.debug.cursor"]
+    },
+    {
+      "before": ["<leader>", "d", "d"],
+      "commands": ["go.debug.subtest.cursor"]
+    },
+    {
+      "before": ["<leader>", "d", "s"],
+      "commands": ["go.test.cursor"]
+    },
+    {
+      "before": ["<leader>", "d", "a"],
+      "commands": ["go.test.file"]
+    },
+    {
+      "before": ["<leader>", "d", "b"],
+      "commands": ["editor.debug.action.toggleBreakpoint"]
+    },
+    {
+      "before": ["<leader>", "d", "c"],
+      "commands": ["workbench.action.debug.continue"]
+    },
+    {
+      "before": ["<leader>", "d", "i"],
+      "commands": ["workbench.action.debug.stepInto"]
+    },
+    {
+      "before": ["<leader>", "d", "u"],
+      "commands": ["workbench.action.debug.stepOut"]
+    },
+    {
+      "before": ["<leader>", "d", "o"],
+      "commands": ["workbench.action.debug.stepOver"]
+    },
+    {
+      "before": ["<leader>", "e"],
+      "commands": ["workbench.view.explorer"]
+    },
+    {
+      "before": ["<leader>", "o"],
+      "commands": ["git.openFile"]
+    },
+    {
+      "before": ["<leader>", "c", "p"],
+      "commands": ["copyRelativeFilePath"]
+    },
+    {
+      "before": ["<leader>", "c", "a"],
+      "after": ["g", "g", "V", "G", "y"]
+    }
+  ],
+  "vim.handleKeys": {
+    "<C-w>": false,
+    "<C-a>": false,
+    "<C-t>": false,
+    "<C-d>": false,
+    "<C-s>": false,
+    "<C-z>": false,
+    "<C-F>": false,
+    "<C-f>": false,
+    "<C-p>": false,
+    "<C-H>": false,
+    "<C-J>": false,
+    "<C-K>": false,
+    "<C-L>": false,
+    "<C-M-H>": false,
+    "<C-M-L>": false,
+    "<C-M-J>": false,
+    "<C-M-K>": false,
+    "<C-[>": false,
+    "<C-]>": false
+  },
+    "<C-L>": false,
+    "<C-M-H>": false,
+    "<C-M-L>": false,
+    "<C-M-J>": false,
+    "<C-M-K>": false,
+    "<C-[>": false,
+    "<C-]>": false
+  },
+  "vim.statusBarColorControl": true,
+    "vim.statusBarColors.normal": [
+        "#8FBCBB",
+        "#000"
+    ],
+    "vim.statusBarColors.insert": [
+        "#BF616A",
+        "#000"
+    ],
+    "vim.statusBarColors.visual": [
+        "#B48EAD",
+        "#000"
+    ],
+    "vim.statusBarColors.visualline": [
+        "#B48EAD",
+        "#000"
+    ],
+    "vim.statusBarColors.visualblock": [
+        "#A3BE8C",
+        "#000"
+    ],
+    "vim.statusBarColors.replace": "#D08770",
+    "vim.statusBarColors.commandlineinprogress": "#007ACC",
+    "vim.statusBarColors.searchinprogressmode": "#007ACC",
+    "vim.statusBarColors.easymotionmode": "#007ACC",
+    "vim.statusBarColors.easymotioninputmode": "#007ACC",
+    "vim.statusBarColors.surroundinputmode": "#007ACC",
+}

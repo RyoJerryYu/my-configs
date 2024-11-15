@@ -1,0 +1,15 @@
+[alias]
+  br = branch
+  ch = checkout
+  cr = cherry-pick
+  tmp = "!git add . && git commit -m 'temp'"
+  rst = reset HEAD~
+  masterhead = "!git rev-parse --abbrev-ref origin/HEAD"
+  prevhead = "!git rev-parse --symbolic-full-name --abbrev-ref=loose @{-1}"
+  up = "!git fetch origin && git rebase $(git masterhead)" 
+  rebi = "!git rebase -i $(git masterhead)"
+  pub = "!git push origin $(git rev-parse --abbrev-ref HEAD)"
+  clr = "!git up && git checkout master && git rebase $(git masterhead) && git branch -d $(git prevhead)"
+  sync = remote update origin --prune
+  lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %C(blue)%s%Creset %C(dim cyan)<%an>%Creset %C(dim white)(%ci)%Creset' --abbrev-commit
+  
