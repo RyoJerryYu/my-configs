@@ -13,3 +13,11 @@
   sync = remote update origin --prune
   lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %C(blue)%s%Creset %C(dim cyan)<%an>%Creset %C(dim white)(%ci)%Creset' --abbrev-commit
   
+[user]
+	name = RyoJerryYu
+	email = tzl19961216@gmail.com
+[filter "lfs"]
+	required = true
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
